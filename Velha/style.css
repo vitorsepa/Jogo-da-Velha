@@ -1,0 +1,53 @@
+button{
+    width: 150px;
+    height: 150px;
+    line-height: 100px;
+    background-color: rgb(223, 223, 223);
+    font-size: 100px;
+    vertical-align: top; 
+    border-left: 1;
+    border-right: 1;
+    border-top: 1;
+    border-bottom: 1;
+    border-left-color: black;
+    border-top-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px 3px 3px rgb(139, 139, 139);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size:40px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+button:disabled{
+    border-color: black;
+}
+
+body{
+    text-align: center;
+}
+
+#bt00{
+    border-radius: 20px 0px 0px 0px;
+}
+
+#bt02{
+    border-radius: 0px 20px 0px 0px;
+}
+
+#bt20{
+    border-radius: 0px 0px 0px 20px;
+}
+
+#bt22{
+    border-radius: 0px 0px 20px 0px;
+}
